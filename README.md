@@ -41,6 +41,25 @@ This repository contains an upgraded version of the official ActionRPG sample pr
 - **Combat System** - Melee and ranged combat with various weapon types
 - **Wave-based Progression** - Enemy spawning and wave management
 
+### 🎯 Modification Philosophy
+
+This project follows the **Minimal Modification Principle**:
+
+- ✅ **Preserve Original Design** - We strive to maintain the complete original design and architecture of Epic's ActionRPG sample
+- ✅ **Compatibility Focus** - Modifications are made solely to ensure the project runs correctly on the latest Unreal Engine version
+- ✅ **No Feature Changes** - We do not add new features or alter existing gameplay mechanics
+- ✅ **Clean Upgrades** - Only necessary API updates and deprecation fixes are applied
+
+### 📅 Version Updates
+
+The author periodically updates this project to the latest stable Unreal Engine version. The update schedule depends on:
+
+- New UE version releases
+- Breaking API changes
+- Community feedback and issues
+
+**Contributions Welcome!** If you've successfully upgraded to a newer engine version or fixed compatibility issues, we encourage you to submit a Pull Request to help keep this project current.
+
 ---
 
 ## ✨ Features
