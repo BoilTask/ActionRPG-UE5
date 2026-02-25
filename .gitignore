@@ -1,16 +1,194 @@
-.idea
+# Visual Studio 2015/2017/2019/2022 cache/options directory
+.vs/
+
+# Visual Studio Code
+.vscode/
 .vsconfig
-Binaries
-Intermediate
-DerivedDataCache
-Saved
-/MetaGame.sln
-/Plugins/Developer
-CSharpParamDefaultValueMetas.ubtplugin.csproj.props
 
-node_modules
+# JetBrains IDEs
+.idea/
 
-*.DotSettings.user
+# Unreal Engine generated files
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+Script/
 
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+*.ipa
+
+# Unreal Engine specific
+*.log
+*.dmp
+*.local
 *.suo
 *.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.opensdf
+*.sdf
+*.sln.docstates.suo
+*.pdb
+
+# Visual Studio user-specific files
+*.rsuser
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Archives
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# Ignore user-specific settings
+*.DotSettings.user
+
+# Per-user private settings
+*.peruser
+
+# Ignore crash reports
+CrashReport*/
+
+# Ignore profiling data
+Profiling/
+
+# Ignore derived data
+DerivedData/
+
+# Ignore automation
+Automation/
+
+# Ignore plugins that are not part of the project
+/Plugins/Developer/
+
+# UBT Plugin generated files
+CSharpParamDefaultValueMetas.ubtplugin.csproj.props
+
+# Mac specific
+*.xcodeproj/
+*.xcworkspace/
+
+# Linux specific
+*.make
+
+# Mobile specific
+*.apk
+*.aab
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Shader cache
+*.ushadercode
+*.oshadercode
+
+# Asset registry
+AssetRegistry.bin
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# Coverage reports
+coverage/
+*.lcov
+
+# NPM
+package-lock.json
+yarn.lock
