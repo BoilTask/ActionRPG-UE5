@@ -117,10 +117,6 @@
 			"Enabled": false
 		},
 		{
-			"Name": "SlateRemote",
-			"Enabled": true
-		},
-		{
 			"Name": "MagicLeapEmulator",
 			"Enabled": false,
 			"SupportedTargetPlatforms": [
