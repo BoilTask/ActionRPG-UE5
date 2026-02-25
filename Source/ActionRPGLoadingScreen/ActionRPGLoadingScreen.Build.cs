@@ -15,7 +15,11 @@ public class ActionRPGLoadingScreen : ModuleRules
 
 		PrivateIncludePaths.AddRange(new string[]
 		{
-			"ActionRPGLoadingScreen/Private",
+			"ActionRPGLoadingScreen/Private"
+		});
+
+		PublicIncludePaths.AddRange(new string[]
+		{
 			"ActionRPGLoadingScreen/Public"
 		});
 
