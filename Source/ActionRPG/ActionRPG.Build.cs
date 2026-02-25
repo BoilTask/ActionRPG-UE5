@@ -31,6 +31,11 @@ public class ActionRPG : ModuleRules
 			}
 		);
 
+		PrivateIncludePaths.AddRange(new string[]
+		{
+			"ActionRPG/Public"
+		});
+
 		if (Target.Platform == UnrealTargetPlatform.IOS)
 		{
 			PrivateDependencyModuleNames.AddRange(new string[] { "OnlineSubsystem", "OnlineSubsystemUtils" });
