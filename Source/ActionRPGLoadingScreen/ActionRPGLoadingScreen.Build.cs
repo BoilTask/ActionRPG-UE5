@@ -13,7 +13,11 @@ public class ActionRPGLoadingScreen : ModuleRules
 
 		PCHUsage = PCHUsageMode.UseSharedPCHs;
 
-		PrivateIncludePaths.Add("ActionRPGLoadingScreen/Private");
+		PrivateIncludePaths.AddRange(new string[]
+		{
+			"ActionRPGLoadingScreen/Private",
+			"ActionRPGLoadingScreen/Public"
+		});
 
 		PublicDependencyModuleNames.AddRange(
 			new string[] {
