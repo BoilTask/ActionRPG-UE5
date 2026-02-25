@@ -11,3 +11,6 @@ CSharpParamDefaultValueMetas.ubtplugin.csproj.props
 node_modules
 
 *.DotSettings.user
+
+*.suo
+*.sln
